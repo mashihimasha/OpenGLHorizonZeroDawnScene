@@ -1,0 +1,29 @@
+﻿CampFire.obj : error LNK2019: unresolved external symbol gluNewQuadric referenced in function "public: void __cdecl CampFire::drawBigRock(void)" (?drawBigRock@CampFire@@QEAAXXZ)
+CampFire.obj : error LNK2019: unresolved external symbol gluDeleteQuadric referenced in function "public: void __cdecl CampFire::drawBigRock(void)" (?drawBigRock@CampFire@@QEAAXXZ)
+CampFire.obj : error LNK2019: unresolved external symbol gluQuadricNormals referenced in function "public: void __cdecl CampFire::drawLog(float)" (?drawLog@CampFire@@QEAAXM@Z)
+CampFire.obj : error LNK2019: unresolved external symbol gluQuadricTexture referenced in function "public: void __cdecl CampFire::drawBigRock(void)" (?drawBigRock@CampFire@@QEAAXXZ)
+CampFire.obj : error LNK2019: unresolved external symbol gluQuadricOrientation referenced in function "public: void __cdecl CampFire::drawLog(float)" (?drawLog@CampFire@@QEAAXM@Z)
+CampFire.obj : error LNK2019: unresolved external symbol gluCylinder referenced in function "public: void __cdecl CampFire::drawBranch(double,double)" (?drawBranch@CampFire@@QEAAXNN@Z)
+CampFire.obj : error LNK2019: unresolved external symbol gluDisk referenced in function "public: void __cdecl CampFire::drawLeaf(void)" (?drawLeaf@CampFire@@QEAAXXZ)
+CampFire.obj : error LNK2019: unresolved external symbol gluPartialDisk referenced in function "public: void __cdecl CampFire::drawLand(void)" (?drawLand@CampFire@@QEAAXXZ)
+CampFire.obj : error LNK2019: unresolved external symbol gluSphere referenced in function "public: void __cdecl CampFire::drawBigRock(void)" (?drawBigRock@CampFire@@QEAAXXZ)
+Main.obj : error LNK2019: unresolved external symbol gluPerspective referenced in function "void __cdecl reshape(int,int)" (?reshape@@YAXHH@Z)
+Main.obj : error LNK2019: unresolved external symbol gluLookAt referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol glutInitDisplayMode referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glutInitWindowPosition referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glutInitWindowSize referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glutMainLoop referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glutCreateWindow referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glutPostRedisplay referenced in function "void __cdecl animate(int)" (?animate@@YAXH@Z)
+Main.obj : error LNK2019: unresolved external symbol glutSwapBuffers referenced in function "void __cdecl display(void)" (?display@@YAXXZ)
+Main.obj : error LNK2019: unresolved external symbol glutDisplayFunc referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glutReshapeFunc referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glutKeyboardFunc referenced in function main
+Main.obj : error LNK2019: unresolved external symbol glutTimerFunc referenced in function "void __cdecl animate(int)" (?animate@@YAXH@Z)
+Main.obj : error LNK2019: unresolved external symbol glutSpecialFunc referenced in function main
+TextureLoader.obj : error LNK2019: unresolved external symbol SOIL_load_OGL_texture referenced in function "unsigned int __cdecl loadTexture(char const *,int)" (?loadTexture@@YAIPEBDH@Z)
+TextureLoader.obj : error LNK2019: unresolved external symbol SOIL_last_result referenced in function "unsigned int __cdecl loadTexture(char const *,int)" (?loadTexture@@YAIPEBDH@Z)
+C:\Users\mashi\OneDrive\Desktop\CS308\glutdlls37beta\glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\mashi\OneDrive\Desktop\CS308\glutdlls37beta\glu32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\mashi\OneDrive\Desktop\CS308\SOIL2\lib\soil2-debug.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\mashi\OneDrive\Desktop\CS308\HorizonZeroDawnScene\x64\Debug\HorizonZeroDawnScene.exe : fatal error LNK1120: 25 unresolved externals
